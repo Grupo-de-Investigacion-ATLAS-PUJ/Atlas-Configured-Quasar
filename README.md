@@ -6,7 +6,7 @@ It contains modified CMAKE Files, config files, instructions and other good-to-k
 ```bash
 sudo dnf install git patch python3-colorama python3-jinja2 python3-lxml cmake3 gcc-c++ boost-devel graphviz ninja-build xsd xerces-c-devel libxml2-devel openssl-devel doxygen astyle
 ```
-(And python if you haven't install these:
+(And python if you haven't install these)
 ```bash
 pip install enum34 lxml jinja2 colorama pygit2 
 ```
