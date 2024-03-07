@@ -15,16 +15,19 @@ git clone --recursive https://github.com/Grupo-de-Investigacion-ATLAS-PUJ/Atlas-
 4. Create a new Quazar project
  ```bash
  ./quasar.py create_project REPLACE_ME_WITH_ROOT_AND_NAME_OF_THE_PROJECT
+ ```
  For example:
+ ```bash
  ./quasar.py create_project /home/ATLAS/Documents/NewUAServer
  ```
 5. Once is downloaded, open the newly created folder (So, if we follow the example, we open the folder: ``
 /home/ATLAS/Documents/NewUAServer
- ``), copy the SDK from UA, place it in the root of the folder (So, where the quasar.py file is located) and run 
+ ``), copy the SDK from UA  (and the file called CustomETMSConfig.cmake), place it in the root of the folder (So, where the quasar.py file is located).
+6. Then we run:  
 ```bash
  ./quasar.py set_build_config CustomETMSConfig.cmake
  ```
-6. And finally run
+7. And finally run
 ```bash
 ./quasar.py build
 ```
